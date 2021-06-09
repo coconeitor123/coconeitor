@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>League of leguen</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top">
+            <h1><a href="4">Leguen Never Die</a></h1>
+        </header>
+        <nav class="navegacion">
+            <a href="#" class="toggle"> Menu</a>
+        <ul>
+            <li><a href="#">Sivir</a></li>
+            <li><a href="#">Diana</a></li>           
+            <li><a href="#">Trynda</a></li>            
+            <li><a href="#">Zelian</a></li>            
+            <li class="social"><a href="#"><i class="fab fa-instagram"></i></a></li>            
+            <li class="social"><a href="#"><i class="fab fa-facebook"></i></a></li>            
+            <li class="social"><a href="#"><i class="fab fa-twitter"></i></a></li>           
+            <li class="social"><a href="#"><i class="fab fa-github"></i></a></li>            
+            <li class="social"><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        </nav>
+        <div class="items">
+            <div class="item">
+                <img src="./img/descarga.jpg">
+            </div>
+            <div class="item">
+                <img src="./img/Diana_1325277500_337256_1024x576.jpg">
+            </div>
+            <div class="item">
+                <img src="./img/EV1a6y8XgAANu2a.jpg">
+            </div>
+            <div class="item">
+                <img src="./img/Zilean_1325277516_337512_1024x576.jpg">
+            </div>
+        </div>
+            <section class="details"> 
+                <p>CHAMPION</p>
+                <p>LUNA DE SANGRE</p>
+                <p>LEAGUE OF LEGUEN</p>
+                <p></p>
+
+            </div>    
+            </section>
+            <section class="signup">
+                <form class="signup">
+                    <input type="text" placeholder="TU NOMBRE">
+                    <input type="email" placeholder="TU MAIL">
+                    <input type="submit" value="SUSCRIBITE">
+                </form>
+            </section>
+            <footer>
+            <p>&copy; NucBA</p>
+        </footer>
+        </div>
+    </div>
+    <script>
+     const toggle = document.querySelector('.toggle');
+     const navUl = document.querySelector('nav.navegacion ul');
+     console.log(navUl);
+     toggle.addEventListener('click', () => {
+         navUl.classList.toggle('open');  
+     });
+    </script>
+</body>
+</html>
